@@ -1,14 +1,13 @@
 import Footer from "./components/footer";
-import Header from "./components/header";
-import SearchQuery from "./components/search_query";
+import Navbar from "./components/navbar";
+import deviceData from "./model/list";
+import DeviceGrid from "./components/DeviceGrid";
+
 function App() {
   return (
     <div>
-      <Header />
-
-      <div className="container mx-auto">
-        <SearchQuery />
-      </div>
+      <Navbar />
+      <DeviceGrid devices={[deviceData]} />   
       <Footer />
     </div>
   );

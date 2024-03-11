@@ -1,23 +1,28 @@
 import React from "react";
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <header className="bg-gray-800 text-gray-300 py-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center">
-          <img
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-            className="h-10 w-auto mr-2"
-            alt="GPS Device Manager"
-          />
-          <h1 className="text-sm font-semibold">GPS Device Manager</h1>
-        </div>
+    <nav className="flex items-center justify-between flex-wrap bg-primary p-20 py-3 bg-[#263242]">
+      <div className="flex items-center flex-shrink-0 text-white mr-6">
+        <img
+          src="https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-1/309236580_467119878788909_3610437146745676163_n.png?stp=dst-png_p480x480&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Ns7wtTuOXVwAX-0yvGJ&_nc_ht=scontent.fbkk29-4.fna&oh=00_AfC4M8PryMz9IjbK062uGBWaxmeRSSL9bpNEd8HhS51NKg&oe=65F3BAD6"
+          className="h-10 w-auto mr-2"
+          alt="GPS Device Manager"
+        />
+        <span className="font-semibold text-xl tracking-tight">
+          GPS Device Manager
+        </span>
+      </div>
+      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div className="text-sm lg:flex-grow"></div>
         <div>
-          <button className="bg-white text-black font-semibold py-1 px-2 rounded flex items-center rounded-lg">
+          <button className="bg-white text-primary font-bold py-2 px-4 rounded inline-flex items-center rounded-[20px]">
             <svg
+              className="w-4 h-4 mr-2"
+              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 48 48"
-              className="w-6 h-6 mr-2"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
               <path
                 fill="#EA4335"
@@ -37,12 +42,13 @@ const Header = () => {
               ></path>
               <path fill="none" d="M0 0h48v48H0z"></path>
             </svg>
-            <p className=" text-sm">Sign in with Google</p>
+
+            <span className="text-sm/[16px]">Sign in with Google</span>
           </button>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
-export default Header;
+export default Navbar;

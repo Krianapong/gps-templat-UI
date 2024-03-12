@@ -9,6 +9,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "online",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 6,
@@ -64,6 +69,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "online",
   },
   {
     id: 7,
@@ -75,6 +81,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 8,
@@ -86,6 +93,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "online",
   },
   {
     id: 9,
@@ -97,6 +105,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "offline",
   },
   {
     id: 10,
@@ -108,6 +117,7 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "online",
   },
   {
     id: 11,
@@ -119,8 +129,8 @@ const data = [
     rssi: -70.5,
     battery: 85.0,
     time: "10:00:00",
+    status: "online",
   },
-  
 ];
 
 export default data;

@@ -1,14 +1,20 @@
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import deviceData from "./model/list";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import data from "./model/data";
 import DeviceGrid from "./components/DeviceGrid";
+import Siderbar from "./components/Navbar/Siderbar";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <DeviceGrid devices={[deviceData]} />   
-      <Footer />
+     
+      {/* <Navbar />
+      <DeviceGrid devices={data} />
+      <Footer /> */}
+       
+
+      {/* Login */}
+      <Siderbar />
     </div>
   );
 }
